@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.rewedigital.neo4j'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '15'
+sourceCompatibility = '11'
 
 repositories {
     mavenCentral()
@@ -14,7 +14,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
-    implementation 'org.neo4j:neo4j:4.1.4'
+    implementation 'org.neo4j:neo4j:4.2.0'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
