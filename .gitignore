@@ -1,7 +1,6 @@
 store_lock
 neo4j.db/
 logs/
-HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
